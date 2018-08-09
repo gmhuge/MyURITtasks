@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_all"
+            android:icon="@drawable/ic_all"
+            android:title="Все" />
+        <item
+            android:id="@+id/nav_in_work"
+            android:icon="@drawable/ic_in_work"
+            android:title="В работе" />
+        <item
+            android:id="@+id/nav_in_test"
+            android:icon="@drawable/ic_in_test"
+            android:title="В тестировании" />
+        <item
+            android:id="@+id/nav_to_deploy"
+            android:icon="@drawable/ic_to_deploy"
+            android:title="На продуктиве" />
+    </group>
+
+    <item android:title="Отчеты">
+        <menu>
+            <item
+                android:id="@+id/nav_custom_report"
+                android:icon="@drawable/ic_custom_report"
+                android:title="Гибкие" />
+            <item
+                android:id="@+id/nav_main_report"
+                android:icon="@drawable/ic_main_report"
+                android:title="Регламентные" />
+        </menu>
+    </item>
+
+</menu>
